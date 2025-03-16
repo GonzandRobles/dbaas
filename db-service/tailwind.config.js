@@ -17,8 +17,14 @@ module.exports = {
       },
       extend: {
         fontFamily: {
-          sans: ["var(--font-geist-sans)"],
-          mono: ["var(--font-geist-mono)"],
+          sans: ["var(--font-inter)"],
+        },
+        fontWeight: {
+          normal: '500',
+          medium: '600',
+          semibold: '700',
+          bold: '800',
+          extrabold: '900',
         },
         colors: {
           border: "hsl(var(--border))",

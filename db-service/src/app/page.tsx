@@ -9,7 +9,7 @@ export default function LandingPage() {
       <header className="sticky top-0 z-40 w-full border-b bg-white">
         <div className="container flex h-16 items-center justify-between">
           <div className="flex items-center gap-2">
-            <Database className="h-6 w-6 text-[hsl(var(--primary))]" />
+            <Database className="h-6 w-6 text-black" />
             <span className="text-xl font-bold">DBaaS</span>
           </div>
           <nav className="hidden md:flex gap-6">
@@ -38,7 +38,7 @@ export default function LandingPage() {
         <section className="container py-20 md:py-28">
           <div className="grid gap-10 lg:grid-cols-2 lg:gap-16 items-center">
             <div className="space-y-6">
-              <h1 className="text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl">
+              <h1 className="text-4xl font-extrabold tracking-tight sm:text-5xl md:text-6xl">
                 Base de datos gestionada para desarrolladores modernos
               </h1>
               <p className="text-lg text-[hsl(var(--muted-foreground))] md:text-xl">
@@ -65,15 +65,15 @@ export default function LandingPage() {
 
         <section id="features" className="container py-20 space-y-16">
           <div className="text-center space-y-4">
-            <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">Características principales</h2>
+            <h2 className="text-3xl font-extrabold tracking-tight sm:text-4xl">Características principales</h2>
             <p className="text-[hsl(var(--muted-foreground))] text-lg max-w-2xl mx-auto">
               Todo lo que necesitas para gestionar tus bases de datos sin complicaciones
             </p>
           </div>
           <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
             <div className="bg-white p-6 rounded-lg border shadow-sm space-y-4">
-              <div className="bg-[hsl(var(--primary)_/_0.1)] p-3 rounded-full w-fit">
-                <Zap className="h-6 w-6 text-[hsl(var(--primary))]" />
+              <div className="bg-blue-50 p-3 rounded-full w-fit">
+                <Zap className="h-6 w-6 text-black" />
               </div>
               <h3 className="text-xl font-bold">Alto rendimiento</h3>
               <p className="text-[hsl(var(--muted-foreground))]">
@@ -81,8 +81,8 @@ export default function LandingPage() {
               </p>
             </div>
             <div className="bg-white p-6 rounded-lg border shadow-sm space-y-4">
-              <div className="bg-[hsl(var(--primary)_/_0.1)] p-3 rounded-full w-fit">
-                <Shield className="h-6 w-6 text-[hsl(var(--primary))]" />
+              <div className="bg-blue-50 p-3 rounded-full w-fit">
+                <Shield className="h-6 w-6 text-black" />
               </div>
               <h3 className="text-xl font-bold">Seguridad avanzada</h3>
               <p className="text-[hsl(var(--muted-foreground))]">
@@ -90,8 +90,8 @@ export default function LandingPage() {
               </p>
             </div>
             <div className="bg-white p-6 rounded-lg border shadow-sm space-y-4">
-              <div className="bg-[hsl(var(--primary)_/_0.1)] p-3 rounded-full w-fit">
-                <Server className="h-6 w-6 text-[hsl(var(--primary))]" />
+              <div className="bg-blue-50 p-3 rounded-full w-fit">
+                <Server className="h-6 w-6 text-black" />
               </div>
               <h3 className="text-xl font-bold">Escalabilidad automática</h3>
               <p className="text-[hsl(var(--muted-foreground))]">
@@ -99,8 +99,8 @@ export default function LandingPage() {
               </p>
             </div>
             <div className="bg-white p-6 rounded-lg border shadow-sm space-y-4">
-              <div className="bg-[hsl(var(--primary)_/_0.1)] p-3 rounded-full w-fit">
-                <Clock className="h-6 w-6 text-[hsl(var(--primary))]" />
+              <div className="bg-blue-50 p-3 rounded-full w-fit">
+                <Clock className="h-6 w-6 text-black" />
               </div>
               <h3 className="text-xl font-bold">Backups automáticos</h3>
               <p className="text-[hsl(var(--muted-foreground))]">
@@ -108,8 +108,8 @@ export default function LandingPage() {
               </p>
             </div>
             <div className="bg-white p-6 rounded-lg border shadow-sm space-y-4">
-              <div className="bg-[hsl(var(--primary)_/_0.1)] p-3 rounded-full w-fit">
-                <Code className="h-6 w-6 text-[hsl(var(--primary))]" />
+              <div className="bg-blue-50 p-3 rounded-full w-fit">
+                <Code className="h-6 w-6 text-black" />
               </div>
               <h3 className="text-xl font-bold">APIs intuitivas</h3>
               <p className="text-[hsl(var(--muted-foreground))]">
@@ -117,8 +117,8 @@ export default function LandingPage() {
               </p>
             </div>
             <div className="bg-white p-6 rounded-lg border shadow-sm space-y-4">
-              <div className="bg-[hsl(var(--primary)_/_0.1)] p-3 rounded-full w-fit">
-                <Database className="h-6 w-6 text-[hsl(var(--primary))]" />
+              <div className="bg-blue-50 p-3 rounded-full w-fit">
+                <Database className="h-6 w-6 text-black" />
               </div>
               <h3 className="text-xl font-bold">Múltiples motores</h3>
               <p className="text-[hsl(var(--muted-foreground))]">
@@ -131,7 +131,7 @@ export default function LandingPage() {
         <section id="how-it-works" className="bg-slate-50 py-20">
           <div className="container space-y-16">
             <div className="text-center space-y-4">
-              <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">Cómo funciona</h2>
+              <h2 className="text-3xl font-extrabold tracking-tight sm:text-4xl">Cómo funciona</h2>
               <p className="text-[hsl(var(--muted-foreground))] text-lg max-w-2xl mx-auto">
                 Implementar y gestionar tu base de datos nunca ha sido tan sencillo
               </p>
@@ -139,7 +139,7 @@ export default function LandingPage() {
             <div className="grid gap-10 lg:grid-cols-2 items-center">
               <div className="space-y-8">
                 <div className="flex gap-4">
-                  <div className="flex-shrink-0 flex items-center justify-center w-10 h-10 rounded-full bg-[hsl(var(--primary))] text-[hsl(var(--primary-foreground))] font-bold">
+                  <div className="flex-shrink-0 flex items-center justify-center w-10 h-10 rounded-full bg-black text-white font-bold">
                     1
                   </div>
                   <div>
@@ -150,7 +150,7 @@ export default function LandingPage() {
                   </div>
                 </div>
                 <div className="flex gap-4">
-                  <div className="flex-shrink-0 flex items-center justify-center w-10 h-10 rounded-full bg-[hsl(var(--primary))] text-[hsl(var(--primary-foreground))] font-bold">
+                  <div className="flex-shrink-0 flex items-center justify-center w-10 h-10 rounded-full bg-black text-white font-bold">
                     2
                   </div>
                   <div>
@@ -161,7 +161,7 @@ export default function LandingPage() {
                   </div>
                 </div>
                 <div className="flex gap-4">
-                  <div className="flex-shrink-0 flex items-center justify-center w-10 h-10 rounded-full bg-[hsl(var(--primary))] text-[hsl(var(--primary-foreground))] font-bold">
+                  <div className="flex-shrink-0 flex items-center justify-center w-10 h-10 rounded-full bg-black text-white font-bold">
                     3
                   </div>
                   <div>
@@ -186,7 +186,7 @@ export default function LandingPage() {
 
         <section id="pricing" className="container py-20 space-y-16">
           <div className="text-center space-y-4">
-            <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">Planes simples y transparentes</h2>
+            <h2 className="text-3xl font-extrabold tracking-tight sm:text-4xl">Planes simples y transparentes</h2>
             <p className="text-[hsl(var(--muted-foreground))] text-lg max-w-2xl mx-auto">
               Sin sorpresas. Paga solo por lo que necesitas.
             </p>
@@ -213,7 +213,7 @@ export default function LandingPage() {
                     strokeWidth="2"
                     strokeLinecap="round"
                     strokeLinejoin="round"
-                    className="h-5 w-5 text-[hsl(var(--primary))]"
+                    className="h-5 w-5 text-black"
                   >
                     <polyline points="20 6 9 17 4 12"></polyline>
                   </svg>
@@ -230,7 +230,7 @@ export default function LandingPage() {
                     strokeWidth="2"
                     strokeLinecap="round"
                     strokeLinejoin="round"
-                    className="h-5 w-5 text-[hsl(var(--primary))]"
+                    className="h-5 w-5 text-black"
                   >
                     <polyline points="20 6 9 17 4 12"></polyline>
                   </svg>
@@ -247,7 +247,7 @@ export default function LandingPage() {
                     strokeWidth="2"
                     strokeLinecap="round"
                     strokeLinejoin="round"
-                    className="h-5 w-5 text-[hsl(var(--primary))]"
+                    className="h-5 w-5 text-black"
                   >
                     <polyline points="20 6 9 17 4 12"></polyline>
                   </svg>
@@ -256,11 +256,11 @@ export default function LandingPage() {
               </ul>
               <Button className="w-full">Comenzar</Button>
             </div>
-            <div className="bg-white p-8 rounded-lg border shadow-sm space-y-6 ring-2 ring-[hsl(var(--primary))]">
+            <div className="bg-white p-8 rounded-lg border shadow-sm space-y-6 ring-2 ring-black">
               <div>
                 <div className="flex items-center gap-2">
                   <h3 className="text-xl font-bold">Profesional</h3>
-                  <span className="bg-[hsl(var(--primary)_/_0.1)] text-[hsl(var(--primary))] text-xs px-2 py-1 rounded-full">Popular</span>
+                  <span className="bg-blue-50 text-black text-xs px-2 py-1 rounded-full">Popular</span>
                 </div>
                 <p className="text-[hsl(var(--muted-foreground))] mt-2">Ideal para aplicaciones en producción</p>
               </div>
@@ -280,7 +280,7 @@ export default function LandingPage() {
                     strokeWidth="2"
                     strokeLinecap="round"
                     strokeLinejoin="round"
-                    className="h-5 w-5 text-[hsl(var(--primary))]"
+                    className="h-5 w-5 text-black"
                   >
                     <polyline points="20 6 9 17 4 12"></polyline>
                   </svg>
@@ -297,7 +297,7 @@ export default function LandingPage() {
                     strokeWidth="2"
                     strokeLinecap="round"
                     strokeLinejoin="round"
-                    className="h-5 w-5 text-[hsl(var(--primary))]"
+                    className="h-5 w-5 text-black"
                   >
                     <polyline points="20 6 9 17 4 12"></polyline>
                   </svg>
@@ -314,7 +314,7 @@ export default function LandingPage() {
                     strokeWidth="2"
                     strokeLinecap="round"
                     strokeLinejoin="round"
-                    className="h-5 w-5 text-[hsl(var(--primary))]"
+                    className="h-5 w-5 text-black"
                   >
                     <polyline points="20 6 9 17 4 12"></polyline>
                   </svg>
@@ -331,7 +331,7 @@ export default function LandingPage() {
                     strokeWidth="2"
                     strokeLinecap="round"
                     strokeLinejoin="round"
-                    className="h-5 w-5 text-[hsl(var(--primary))]"
+                    className="h-5 w-5 text-black"
                   >
                     <polyline points="20 6 9 17 4 12"></polyline>
                   </svg>
@@ -361,7 +361,7 @@ export default function LandingPage() {
                     strokeWidth="2"
                     strokeLinecap="round"
                     strokeLinejoin="round"
-                    className="h-5 w-5 text-[hsl(var(--primary))]"
+                    className="h-5 w-5 text-black"
                   >
                     <polyline points="20 6 9 17 4 12"></polyline>
                   </svg>
@@ -378,7 +378,7 @@ export default function LandingPage() {
                     strokeWidth="2"
                     strokeLinecap="round"
                     strokeLinejoin="round"
-                    className="h-5 w-5 text-[hsl(var(--primary))]"
+                    className="h-5 w-5 text-black"
                   >
                     <polyline points="20 6 9 17 4 12"></polyline>
                   </svg>
@@ -395,7 +395,7 @@ export default function LandingPage() {
                     strokeWidth="2"
                     strokeLinecap="round"
                     strokeLinejoin="round"
-                    className="h-5 w-5 text-[hsl(var(--primary))]"
+                    className="h-5 w-5 text-black"
                   >
                     <polyline points="20 6 9 17 4 12"></polyline>
                   </svg>
@@ -412,7 +412,7 @@ export default function LandingPage() {
                     strokeWidth="2"
                     strokeLinecap="round"
                     strokeLinejoin="round"
-                    className="h-5 w-5 text-[hsl(var(--primary))]"
+                    className="h-5 w-5 text-black"
                   >
                     <polyline points="20 6 9 17 4 12"></polyline>
                   </svg>
@@ -429,7 +429,7 @@ export default function LandingPage() {
                     strokeWidth="2"
                     strokeLinecap="round"
                     strokeLinejoin="round"
-                    className="h-5 w-5 text-[hsl(var(--primary))]"
+                    className="h-5 w-5 text-black"
                   >
                     <polyline points="20 6 9 17 4 12"></polyline>
                   </svg>
@@ -446,7 +446,7 @@ export default function LandingPage() {
         <section id="testimonials" className="bg-slate-50 py-20">
           <div className="container space-y-16">
             <div className="text-center space-y-4">
-              <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">Lo que dicen nuestros clientes</h2>
+              <h2 className="text-3xl font-extrabold tracking-tight sm:text-4xl">Lo que dicen nuestros clientes</h2>
               <p className="text-[hsl(var(--muted-foreground))] text-lg max-w-2xl mx-auto">
                 Miles de desarrolladores confían en nosotros para sus bases de datos
               </p>
@@ -462,7 +462,7 @@ export default function LandingPage() {
                       height="24"
                       viewBox="0 0 24 24"
                       fill="currentColor"
-                      className="h-5 w-5 text-[hsl(var(--yellow-400))]"
+                      className="h-5 w-5 text-yellow-400"
                     >
                       <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
                     </svg>
@@ -490,7 +490,7 @@ export default function LandingPage() {
                       height="24"
                       viewBox="0 0 24 24"
                       fill="currentColor"
-                      className="h-5 w-5 text-[hsl(var(--yellow-400))]"
+                      className="h-5 w-5 text-yellow-400"
                     >
                       <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
                     </svg>
@@ -518,7 +518,7 @@ export default function LandingPage() {
                       height="24"
                       viewBox="0 0 24 24"
                       fill="currentColor"
-                      className="h-5 w-5 text-[hsl(var(--yellow-400))]"
+                      className="h-5 w-5 text-yellow-400"
                     >
                       <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
                     </svg>
@@ -541,12 +541,12 @@ export default function LandingPage() {
         </section>
 
         <section className="container py-20">
-          <div className="rounded-lg bg-[hsl(var(--primary))] p-8 md:p-16 text-[hsl(var(--primary-foreground))]">
+          <div className="rounded-lg bg-black p-8 md:p-16 text-white">
             <div className="mx-auto max-w-3xl text-center space-y-8">
-              <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">
+              <h2 className="text-3xl font-extrabold tracking-tight sm:text-4xl">
                 Comienza a usar la mejor plataforma de bases de datos hoy mismo
               </h2>
-              <p className="text-lg text-[hsl(var(--primary-foreground/_90))]">
+              <p className="text-lg text-white/90">
                 Únete a miles de desarrolladores que confían en nosotros para sus bases de datos. Prueba gratis durante
                 14 días, sin tarjeta de crédito.
               </p>
@@ -557,7 +557,7 @@ export default function LandingPage() {
                 <Button
                   size="lg"
                   variant="outline"
-                  className="bg-transparent border-[hsl(var(--primary-foreground)_/_0.2)] hover:bg-[hsl(var(--primary-foreground)_/_0.1)]"
+                  className="bg-transparent border-white/20 hover:bg-white/10"
                 >
                   Contactar con ventas
                 </Button>
@@ -571,7 +571,7 @@ export default function LandingPage() {
           <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
             <div className="space-y-4">
               <div className="flex items-center gap-2">
-                <Database className="h-6 w-6 text-[hsl(var(--primary))]" />
+                <Database className="h-6 w-6 text-black" />
                 <span className="text-xl font-bold">DBaaS</span>
               </div>
               <p className="text-[hsl(var(--muted-foreground))]">
